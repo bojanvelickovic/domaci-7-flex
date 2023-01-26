@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.navigation {
+	background-color: #000000;
+	color: white;
+}
+.listNav {
+	color: white;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	list-style-type: none;
+}
+.listNav a {
+	color: azure;
+	text-decoration: none;
+}
+
+.product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 64vh;
+}
+.image {
+	width: 300px;
+}
+.name {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 1vh;
+	gap: 10px;
+}
+
+.buttonStyle {
+	height: 40px;
+	width: 100px;
+	color: white;
+	background-color: black;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-items: space between;
+}
